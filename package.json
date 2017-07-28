@@ -1,0 +1,20 @@
+{
+  "name": "demo-game",
+  "version": "1.0.0",
+  "description": "demo game",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --port 7000 --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^2.6.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.3.2",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
